@@ -25,6 +25,8 @@ Shortcuts
 
 Sample programs
 ---------------
+0-3. User saved programs (EEPROM)
+
 4. Automatic counter (*[Laboratory Exercises][LabExer]* Exercise 2, page 2-3 and almost Exercise 12, page 12-5)
 5. Step-by-step counter (*[Laboratory Exercises][LabExer]* Exercise 3, page 3-1)
 6. Binary to decimal training (*[Laboratory Exercises][LabExer]* Exercise 4, page 4-3)
