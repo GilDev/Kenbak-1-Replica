@@ -6,7 +6,7 @@ All the internal TTL logic has been replaced by an Arduino Nano.
 An MCP23017 handle the inputs.
 An TLC5940NT handle the LEDs.
 
-![Schematic](../assets/Schematic.png)
+![Schematic](assets/Schematic.png)
 
 Differences with the original
 -----------------------------
@@ -38,13 +38,9 @@ Sample programs
 TODO
 ----
 * Use MCP23017 interrupts.
-* Make loading programs works with unconsecutive bit buttons and not starting at pin 8.
 * Use internal timer to check battery's voltage every X sec.
 * Make the `bitPressed` variable assignment better in `handleInputs()`.
 * Uniformize `switch`s and `if`s in `exec()`.
-* Check the `delay(50)` in `inputsInit()`.
-* Make function to print the operand while debugging.
-* Make it so that when you press STORE to store a program to the EEPROM, it doesn't store in Kenbak-1's memory.
 
 [LabExer]: http://www.kenbak-1.net/index_files/Lab%20Exer.pdf
 
