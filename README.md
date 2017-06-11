@@ -6,7 +6,7 @@ All the internal TTL logic has been replaced by an Arduino Nano.
 An MCP23017 handle the inputs.
 An TLC5940NT handle the LEDs.
 
-![Schematic](assets/Schematic.png)
+![Schematic](../assets/Schematic.png)
 
 Differences with the original
 -----------------------------
