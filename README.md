@@ -43,11 +43,14 @@ Sample programs
 9. Combination lock, code is 42 (*[Laboratory Exercises][LabExer]* Exercise 11, page 11-7)
 10. Separate tallies (*[Laboratory Exercises][LabExer]* Exercise 13, page 13-4)
 11. Sum of consecutive values in memory (*[Laboratory Exercises][LabExer]* Exercise 14, page 14-6, preloaded with values given page 14-4)
-12. K-2000 animation
-13. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
+12. Substraction (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-4)
+13. Two numbers adder by consecutive increments (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-5)
+14. K-2000 animation
+15. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
 
 TODO
 ----
+* Put sample programs in Arduino's flash memory!
 * Use MCP23017 interrupts.
 * Use internal timer to check battery's voltage every X sec.
 * Make the `bitPressed` variable assignment better in `handleInputs()`.
