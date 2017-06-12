@@ -14,6 +14,14 @@ Differences with the original
 * Memory initialized to 0.
 * Unprecise timing (original Kenbak-1 instructions had an unknown number of cycles).
 
+Publications
+------------
+If you want to learn more about the computer, here are some publications taken from the [Kenbak-1's original website](http://kenbak-1.net/index_files/page0008.htm):
+
+* [Programming Reference Manual](assets/publications/ProgrammingReferenceManual.pdf): everything you need to program the computer.
+* [Laboratory Exercises](assets/publications/LaboratoryExercises.pdf): to learn how to use the computer, how to handle binary numbers, how to make algorithms and flowcharts… Awesome book, I read it completely (that's how passionate I am about this computer) and filled it so if you need some answers or look at sample programs assemblies I made, look here: [Programming Reference Manual Completed](assets/publications/LaboratoryExercisesCompleted.pdf).
+* [Theory of Operation](assets/publications/TheoryOfOperation.pdf): all electronic schematics to understand the inner workings of the Kenbak-1.
+
 Shortcuts
 ---------
 * STOP + START: As the original Kenbak-1, executes one instruction.
@@ -33,9 +41,10 @@ Sample programs
 7. Decimal to binary training (*[Laboratory Exercises][LabExer]* Exercise 5, page 5-1)
 8. Adder (*[Laboratory Exercises][LabExer]* Exercise 6, page 6-1)
 9. Combination lock, code is 42 (*[Laboratory Exercises][LabExer]* Exercise 11, page 11-7)
-10. Separate tally (*[Laboratory Exercises][LabExer]* Exercise 13, page 13-4)
-. K-2000 animation
-. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
+10. Separate tallies (*[Laboratory Exercises][LabExer]* Exercise 13, page 13-4)
+11. Sum of consecutive values in memory (*[Laboratory Exercises][LabExer]* Exercise 14, page 14-6, preloaded with values given page 14-4)
+12. K-2000 animation
+13. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
 
 TODO
 ----
@@ -44,8 +53,9 @@ TODO
 * Make the `bitPressed` variable assignment better in `handleInputs()`.
 * Uniformize `switch`s and `if`s in `exec()`.
 
-[LabExer]: http://www.kenbak-1.net/index_files/Lab%20Exer.pdf
-
 Quirks
 ------
 * *[Laboratory Exercises][LabExer]* page 13-4: instruction `STORE A (200)` should be `STORE A OUTPUT`.
+
+
+[LabExer]: http://www.kenbak-1.net/index_files/Lab%20Exer.pdf
