@@ -22,6 +22,13 @@ If you want to learn more about the computer, here are some publications taken f
 * [Laboratory Exercises](assets/publications/LaboratoryExercises.pdf): to learn how to use the computer, how to handle binary numbers, how to make algorithms and flowcharts… Awesome book, I read it completely (that's how passionate I am about this computer) and filled it so if you need some answers or look at sample programs assemblies I made, look here: [Programming Reference Manual Completed](assets/publications/LaboratoryExercisesCompleted.pdf).
 * [Theory of Operation](assets/publications/TheoryOfOperation.pdf): all electronic schematics to understand the inner workings of the Kenbak-1.
 
+Compilation
+-----------
+You will need [PlatformIO](http://platformio.org/) (first time I use it in a project, amazing tool).
+
+* To compile: `$ pio run`.
+* To upload: `$ pio run -t upload`.
+
 Shortcuts
 ---------
 * STOP + START: As the original Kenbak-1, executes one instruction.
@@ -61,4 +68,4 @@ Quirks
 * *[Laboratory Exercises][LabExer]* page 13-4: instruction `STORE A (200)` should be `STORE A OUTPUT`.
 
 
-[LabExer]: http://www.kenbak-1.net/index_files/Lab%20Exer.pdf
+[LabExer]: assets/publications/LaboratoryExercises.pdf
