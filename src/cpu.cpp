@@ -245,8 +245,6 @@ bool exec(void)
 				*P_REG = *data + 1;
 			} else {
 				*P_REG = *data;
-				Serial.print("\nP = ");
-				Serial.println(*P_REG);
 			}
 		} else {
 			*P_REG += 2;

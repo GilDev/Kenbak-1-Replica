@@ -10,6 +10,13 @@ Adafruit_MCP23017 inputs;
 
 bool buttonPressed[16] = {false};
 bool dataButtonPressed = false;
+uint8_t buttons[16] = {
+	I_B0, I_B1, I_B2, I_B3, I_B4, I_B5, I_B6, I_B7,
+	I_CLEAR,
+	I_DISPLAY_ADDRESS, I_SET_ADDRESS,
+	I_READ_MEMORY, I_STORE_MEMORY,
+	I_START, I_STOP
+};
 
 void inputsInit(void)
 {
@@ -43,17 +50,12 @@ void handleInputs(void)
 					case I_B5:
 					case I_B6:
 					case I_B7:
-
-						// This is ugly! Need to find something else, like the `leds` array but for bit buttons
-						switch (button) {
-							case I_B0: bitPressed = 0; break;
-							case I_B1: bitPressed = 1; break;
-							case I_B2: bitPressed = 2; break;
-							case I_B3: bitPressed = 3; break;
-							case I_B4: bitPressed = 4; break;
-							case I_B5: bitPressed = 5; break;
-							case I_B6: bitPressed = 6; break;
-							case I_B7: bitPressed = 7; break;
+						uint8_t i;
+						for (i = 0; i < 8; i++) {
+							if (button == buttons[i]) {
+								bitPressed = i;
+								break;
+							}
 						}
 
 						if (buttonPressed[I_STOP]) {
@@ -187,6 +189,11 @@ void handleInputs(void)
 		}
 	}
 
-	if (bitPressed == 0xFF)
+	// Low brightness output LEDs when pressing a data button
+	for (button = 0; button < 8; button++)
+		if (buttonPressed[buttons[button]])
+			break;
+
+	if (button == 8 && button != I_CLEAR)
 		dataButtonPressed = false;
 }

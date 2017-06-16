@@ -86,7 +86,7 @@ void updateLeds(void)
 	if (buttonPressed[I_STORE_MEMORY] && digitalRead(I_MEMORY_LOCK)) // If you store in memory, light up the "run" LED
 		tlc.set(L_RUN, ledBrightness);
 
-	if (mode == RUN && dataButtonPressed) {
+	if (mode == RUN && (dataButtonPressed || buttonPressed[I_CLEAR])) {
 		updateDataLeds(dataLeds, ledLowBrightness);
 		updateDataLeds(*INPUT_REG, ledBrightness);
 	} else {

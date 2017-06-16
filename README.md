@@ -58,9 +58,9 @@ Sample programs
 TODO
 ----
 * Put sample programs in Arduino's flash memory!
+* Update and upload schematics, PCB, 3D model, GCode and everything.
 * Use MCP23017 interrupts.
 * Use internal timer to check battery's voltage every X sec.
-* Make the `bitPressed` variable assignment better in `handleInputs()`.
 * Uniformize `switch`s and `if`s in `exec()`.
 
 Quirks
