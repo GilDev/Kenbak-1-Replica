@@ -42,6 +42,8 @@ Sample programs
 ---------------
 0-3. User saved programs (EEPROM)
 
+You can find listing and instructions for the following programs in the [Laboratory Exercices completed by myself](assets/publications/LaboratoryExercisesCompleted.pdf).
+
 4. Automatic counter (*[Laboratory Exercises][LabExer]* Exercise 2, page 2-3 and almost Exercise 12, page 12-5)
 5. Step-by-step counter (*[Laboratory Exercises][LabExer]* Exercise 3, page 3-1)
 6. Binary to decimal training (*[Laboratory Exercises][LabExer]* Exercise 4, page 4-3)
@@ -52,9 +54,12 @@ Sample programs
 11. Sum of consecutive values in memory (*[Laboratory Exercises][LabExer]* Exercise 14, page 14-6, preloaded with values given page 14-4)
 12. Substraction (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-4)
 13. Two numbers adder by consecutive increments (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-5)
-14. K-2000 animation: one LED going back and forth.
+
+You can find listing and instructions for the following custom programs in the [samplePrograms folder](assets/samplePrograms).
+
+14. K-2000: simple animation of an LED going back and forth.
 15. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
-16. Pong: very simple Pong. Push START to begin. When the ball is at the far left, press the bit 7 button at the same time to try to launch it back to the right.
+16. [Pong](assets/samplePrograms/16-Pong.md): very simple Pong. Push START to begin. When the ball is at the far left, press the bit 7 button at the same time to try to launch it back to the right.
 
 TODO
 ----
