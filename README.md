@@ -69,6 +69,7 @@ TODO
 * Use MCP23017 interrupts.
 * Use internal timer to check battery's voltage every X sec.
 * Uniformize `switch`s and `if`s in `exec()`.
+* Make a test suit for the emulator.
 
 Quirks
 ------
