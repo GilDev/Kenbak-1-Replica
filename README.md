@@ -57,14 +57,15 @@ You can find listing and instructions for the following programs in the [Laborat
 
 You can find listing and instructions for the following custom programs in the [samplePrograms folder](misc/samplePrograms).
 
-14. K-2000: simple animation of an LED going back and forth.
-15. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
-16. [Pong](misc/samplePrograms/16-Pong.md): very simple Pong. Push START to begin. When the ball is at the far left, press the bit 7 button at the same time to try to launch it back to the right.
+14. [K-2000](misc/samplePrograms/14-K2000.md): simple animation of an LED going back and forth.
+15. [Multiplier](misc/samplePrograms/15-Multiplier.md): multiply two numbers.
+16. [Pong](misc/samplePrograms/16-Pong.md): very simple Pong game.
 
 TODO
 ----
 * Put sample programs in Arduino's flash memory!
 * Update and upload schematics, PCB, 3D model, GCode and everything.
+* Add comments and maybe better format for sample program's listings. Those tabulations aren't the best.
 * Use MCP23017 interrupts.
 * Use internal timer to check battery's voltage every X sec.
 * Uniformize `switch`s and `if`s in `exec()`.
