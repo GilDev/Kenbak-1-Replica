@@ -1,6 +1,6 @@
 #include "samplePrograms.h"
 
-uint8_t labExer2[] = {
+static uint8_t labExer2[] = {
 	0000,
 	0000,
 	0000,
@@ -13,7 +13,7 @@ uint8_t labExer2[] = {
 	0004,
 };
 
-uint8_t labExer3[] = {
+static uint8_t labExer3[] = {
 	0000,
 	0000,
 	0000,
@@ -29,7 +29,7 @@ uint8_t labExer3[] = {
 	0006,
 };
 
-uint8_t labExer4[] = {
+static uint8_t labExer4[] = {
 	0000,
 	0000,
 	0000,
@@ -58,7 +58,7 @@ uint8_t labExer4[] = {
 	0004,
 };
 
-uint8_t labExer5[] = {
+static uint8_t labExer5[] = {
 	0000,
 	0000,
 	0000,
@@ -93,7 +93,7 @@ uint8_t labExer5[] = {
 	0006,
 };
 
-uint8_t labExer6[] = {
+static uint8_t labExer6[] = {
 	0000, // Push start to add the input to the total
 	0000, // Bit 7 to reset
 	0000,
@@ -117,7 +117,7 @@ uint8_t labExer6[] = {
 	0013,
 };
 
-uint8_t labExer11[] = {
+static uint8_t labExer11[] = {
 	0000,
 	0000,
 	0000,
@@ -374,7 +374,7 @@ uint8_t labExer11[] = {
 	0020,
 };
 
-uint8_t labExer13[] = {
+static uint8_t labExer13[] = {
 	0000,
 	0000,
 	0000,
@@ -407,7 +407,7 @@ uint8_t labExer13[] = {
 	0001,
 };
 
-uint8_t labExer14[] = {
+static uint8_t labExer14[] = {
 	0000,
 	0000,
 	0000,
@@ -592,7 +592,7 @@ uint8_t labExer14[] = {
 	0011,
 };
 
-uint8_t labExer15[] = {
+static uint8_t labExer15[] = {
 	0000,
 	0000,
 	0000,
@@ -610,7 +610,7 @@ uint8_t labExer15[] = {
 	0004,
 };
 
-uint8_t labExer15_2[] = {
+static uint8_t labExer15_2[] = {
 	0000,
 	0000,
 	0000,
@@ -644,7 +644,7 @@ uint8_t labExer15_2[] = {
 	0004,
 };
 
-uint8_t backAndForthProgram[] = {
+static uint8_t backAndForth[] = {
 	0040,
 	0000,
 	0000,
@@ -670,7 +670,7 @@ uint8_t backAndForthProgram[] = {
 	0015,
 };
 
-uint8_t multiplyProgram[] = {
+static uint8_t multiply[] = {
 	0000,
 	0000,
 	0000,
@@ -706,7 +706,7 @@ uint8_t multiplyProgram[] = {
 	0004,
 };
 
-uint8_t pongProgram[] = {
+static uint8_t pong[] = {
 	0000,
 	0000,
 	0000,
@@ -748,9 +748,9 @@ uint8_t *samplePrograms[] = {
 	labExer14,
 	labExer15,
 	labExer15_2,
-	backAndForthProgram,
-	multiplyProgram,
-	pongProgram,
+	backAndForth,
+	multiply,
+	pong,
 };
 
 uint8_t sampleProgramsSizes[] = {
@@ -764,7 +764,7 @@ uint8_t sampleProgramsSizes[] = {
 	sizeof labExer14,
 	sizeof labExer15,
 	sizeof labExer15_2,
-	sizeof backAndForthProgram,
-	sizeof multiplyProgram,
-	sizeof pongProgram,
+	sizeof backAndForth,
+	sizeof multiply,
+	sizeof pong,
 };

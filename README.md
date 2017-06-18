@@ -52,7 +52,7 @@ Sample programs
 11. Sum of consecutive values in memory (*[Laboratory Exercises][LabExer]* Exercise 14, page 14-6, preloaded with values given page 14-4)
 12. Substraction (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-4)
 13. Two numbers adder by consecutive increments (*[Laboratory Exercises][LabExer]* Exercise 15, page 15-5)
-14. K-2000 animation
+14. K-2000 animation: one LED going back and forth.
 15. Multiplier: push START to start, enter first term, push START, enter second term, push START, results displays, push START to start again.
 16. Pong: very simple Pong. Push START to begin. When the ball is at the far left, press the bit 7 button at the same time to try to launch it back to the right.
 
