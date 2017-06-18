@@ -706,6 +706,37 @@ uint8_t multiplyProgram[] = {
 	0004,
 };
 
+uint8_t pongProgram[] = {
+	0000,
+	0000,
+	0000,
+	0004,
+	0023,
+	0001,
+	0311,
+	0034,
+	0200,
+	0124,
+	0000,
+	0114,
+	0377,
+	0234,
+	0377,
+	0143,
+	0006,
+	0011,
+	0034,
+	0200,
+	0124,
+	0000,
+	0113,
+	0001,
+	0143,
+	0021,
+	0344,
+	0006,
+};
+
 uint8_t *samplePrograms[] = {
 	labExer2,
 	labExer3,
@@ -719,6 +750,7 @@ uint8_t *samplePrograms[] = {
 	labExer15_2,
 	backAndForthProgram,
 	multiplyProgram,
+	pongProgram,
 };
 
 uint8_t sampleProgramsSizes[] = {
@@ -734,4 +766,5 @@ uint8_t sampleProgramsSizes[] = {
 	sizeof labExer15_2,
 	sizeof backAndForthProgram,
 	sizeof multiplyProgram,
+	sizeof pongProgram,
 };
